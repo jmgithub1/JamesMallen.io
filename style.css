@@ -3,8 +3,52 @@
     padding: 0;
 }
 
+#intro{
+    text-align: center;
+    height: 400px;
+    margin-top: 20px;
+}
 
-body{
-    background-image: url("./Images/cropped-florence-landfall-from-space-nasa-noaa-1.jpg");
-    background-size: cover;
+.reverse{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#course{
+    color: white;
+    margin-bottom: 100px;
+}
+
+#java{
+    background-image: url("./Images/photo-1542831371-29b0f74f9713.jpg");
+    height: 400px;
+    color: white;
+    text-align: center;
+    width: 60%;
+    border-style: outset;
+
+}
+
+#contact{
+    text-align: center;
+    height: 100px;
+    margin-top: 40px;
+    color: white;
+}
+
+@media only screen and (max-width: 576px) {
+    #intro img{
+        height: 300px;
+        width:  300px;
+    }
+       
+    #course{
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    }
+    #course img{
+    height: 200px;
+    width:  200px;
+    }
 }
